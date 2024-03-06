@@ -1,0 +1,141 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  h1 {
+    text-align: center;
+  }
+  hr {
+    border: 2px solid blue;
+  }
+  ul {
+    list-style-type: disc;
+    font-family: 'Roboto', sans-serif;
+  }
+  p {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    transition: box-shadow 0.3s;
+  }
+  p:hover {
+    box-shadow: 2px 2px 5px gray;
+  }
+  img {
+    border: 2px solid gray;
+
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+    transition: transform 0.3s;
+  }
+  img:hover {
+    transform: scale(1.2);
+  }
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  th {
+    background-color: #f5f5f5;
+  }
+  td {
+    background-color: #ffffff;
+  }
+  .birthdate {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #000000;
+    box-shadow: 0 0 5px #000000;
+  }
+  .birthdate:hover {
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0 0 5px #ffffff;
+  }
+  body {
+    background: linear-gradient(to bottom, #a6c0fe, #f68084);
+    font-family: Arial, sans-serif;
+  }
+  .command {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ffeded;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+  }
+  .command:hover {
+    background-color: #ffe0e0;
+  }
+  font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+  
+  .login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    background-color: #3498db;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  input[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+  input[type="text"], input[type="password"] {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+  }
+  input::placeholder {
+    color: #95a5a6;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    background: linear-gradient(to right, #3498db, #2ecc71);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s;
+  }
+  li:hover {
+    background: #2980b9;
+  }
+  h2 {
+    color: #3498db;
+  }
+  p {
+    margin: 0;
+    color: #424242;
+  }
+  #linea{
+    text-decoration: line-through;
+  }
+  #LBajo{
+    text-decoration: overline;
+  }
+  #cursiva{
+    font-style: oblique;
+  }
+  #negritas{
+    font-weight: 900;
+  }
